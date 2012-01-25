@@ -9,7 +9,7 @@
 <!--<xsl:param name="default.image.width" select="'900px'"/>-->
 <xsl:param name="keep.relative.image.uris" select="0"/>
 <xsl:param name="use.role.for.media.object" select="1"/>
-<xsl:param name="html.stylesheet" select="'../evergreen_doc.css'"/>
+<xsl:param name="html.stylesheet" select="'evergreen_doc.css'"/>
 <xsl:param name="para.propagates.style" select="1"/> <!-- applies "role" attribute as html class, for tracking changes in draft -->
 <xsl:param name="generate.revhistory.link" select="1"/>
 <xsl:param name="glossary.sort" select="1"/> <!-- sort glossterms aphabetically regardless of order in xml docs -->
@@ -103,10 +103,10 @@
    
     <xsl:template name="user.footer.navigation">
         
-       <div style="float: left;"> <p style="font-style: italic; font-size: .8em;">Report any errors in this documentation using <a href="https://bugs.launchpad.net/evergreen/+filebug">Launchpad</a>.<br />Documentation for Evergreen version 2.0 <br/>Copyright © 2007-2012, 
+       <div style="float: left;"> <p style="font-style: italic; font-size: .8em;">Report any errors in this documentation using <a href="https://bugs.launchpad.net/evergreen/+filebug">Launchpad</a>.<br />Documentation for Evergreen version 2.2 <br/>Copyright © 2007-2012, 
 	<a href="attributions.html">Memebers of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
             <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a></p></div>
-        <div style="float: right;"> <a href="../pdf/Evergreen_Documentation.pdf" title="also availabe in PDF"><img src="../media/pdf_icon.gif"/></a></div>
+        <div style="float: right;"> <a href="Evergreen_Documentation.pdf" title="also availabe in PDF"><img src="media/pdf_icon.gif"/></a></div>
                 
     </xsl:template>
     
