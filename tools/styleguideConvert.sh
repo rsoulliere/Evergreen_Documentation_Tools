@@ -5,10 +5,10 @@
 
 
 #Generate PDF via FO
- xsltproc --xinclude  --output ~/Evergreen_Documentation_tools/style_guide/pdf/temp.fo ~/Evergreen_Documenttion_Tools/stylesheets/styleguide/evergreen_fo.xsl ~/Evergreen_Documentation_Tools/style_guide/root.xml
+ xsltproc --xinclude  --output ~/Evergreen_Documentation_Tools/style_guide/pdf/temp.fo ~/Evergreen_Documentation_Tools/stylesheets/styleguide/evergreen_fo.xsl ~/Evergreen_Documentation_Tools/style_guide/root.xml
 
 # must run fop from same directory as root.xml
-cd ~/Evergreen_Documentation_Tools/style_guide/
+cd ~/Evergreen_Documentation_Tools/style_guide
 
  ~/doctools/fop/fop -fo pdf/temp.fo -pdf /openils/var/web/evergreen_documentation/style_guide/pdf/style_guide.pdf 
 
