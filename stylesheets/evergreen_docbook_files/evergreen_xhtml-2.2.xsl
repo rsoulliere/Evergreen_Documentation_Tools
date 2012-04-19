@@ -101,10 +101,9 @@
    
   <!-- custom footer for Evergreen copyright --> 
    
-    <xsl:template name="user.footer.navigation">
-        
+    <xsl:template name="user.footer.navigation">        
        <div style="float: left;"> <p style="font-style: italic; font-size: .8em;">Report any errors in this documentation using <a href="https://bugs.launchpad.net/evergreen/+filebug">Launchpad</a>.<br />Documentation for Evergreen version 2.2 <br/>Copyright © 2007-2012, 
-	<a href="attributions.html">Memebers of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
+	<a href="_attributions.html">Members of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
             <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a></p></div>
         <div style="float: right;"> <a href="Evergreen_Documentation.pdf" title="also availabe in PDF"><img src="media/pdf_icon.gif"/></a></div>
                 
