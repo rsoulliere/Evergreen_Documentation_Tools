@@ -106,8 +106,9 @@
 	<a href="_attributions.html">Members of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
             <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a></p></div>
         <div style="float: right;"> <a href="Evergreen_Documentation.pdf"
-title="also availabe in PDF"><img src="media/application-pdf.png"/></a></div>
-        <div style="float: right;"> <a href="Evergreen_Documentation.epub" title="also availabe in epub"><img src="media/epub_logo_color_ht39.gif"/></a></div>
+title="also available in PDF"><img src="media/application-pdf.png"/></a></div>
+        <div style="float: right;"> <a href="Evergreen_Documentation.epub"
+title="also available in epub"><img src="media/epub_logo_color_ht39.gif"/></a></div>
                 
     </xsl:template>
     
