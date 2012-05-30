@@ -107,7 +107,7 @@
 	<a href="attributions.html">Members of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
             <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a></p></div>
         <div style="float: right;"> <a href="../pdf/Evergreen_Documentation.pdf"
-title="also availabe in PDF"><img src="../media/pdf_icon.png"/></a></div>
+title="also availabe in PDF"><img style="height:60px; width:60px;" src="../media/pdf_icon.png"/></a></div>
                 
     </xsl:template>
     
