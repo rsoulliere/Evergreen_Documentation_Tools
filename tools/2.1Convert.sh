@@ -11,5 +11,5 @@ cp -R ~/Evergreen-DocBook/* ~/Evergreen_Documentation/rel_2_1/
 # must run fop from same directory as root.xml
  cd ~/Evergreen_Documentation/rel_2_1
   ~/doctools/fop/fop -fo pdf/temp.fo -pdf /openils/var/web/evergreen_documentation/2.1/pdf/Evergreen_Documentation.pdf 
- rm temp.fo
+# rm pdf/temp.fo
 

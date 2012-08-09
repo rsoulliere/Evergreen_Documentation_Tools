@@ -13,4 +13,4 @@ cd ~/Evergreen_Documentation/rel_1_6
 ~/doctools/fop/fop -fo pdf/temp.fo -pdf /openils/var/web/evergreen_documentation/1.6/draft/pdf/Evergreen_Documentation.pdf 
 
 # remove temporary .fo file
-rm temp.fo
+# rm pdf/temp.fo
