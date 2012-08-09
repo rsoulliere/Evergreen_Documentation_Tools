@@ -8,5 +8,5 @@ xsltproc --xinclude  --output ~/Evergreen_Documentation/rel_2_3/pdf/temp.fo ~/Ev
 # must run fop from same directory as root.xml
 cd ~/Evergreen_Documentation/rel_2_3
 ~/doctools/fop/fop -fo pdf/temp.fo -pdf /openils/var/web/evergreen_documentation/2.3/Evergreen_Documentation.pdf 
-rm temp.fo
+#rm pdf/temp.fo
 
