@@ -38,10 +38,16 @@
                     <table width="100%" summary="Navigation header">
                         <xsl:if test="$row1">
                             <tr>
-                                <th colspan="3" align="center">
-                                    <xsl:apply-templates select="." mode="object.title.markup"/>
-                                </th>
-                            </tr>
+
+ <td style="width:400px; margin:0px; padding:0px"><a href="http://evergreen-ils.org"><img src="media/small_logo_white.jpg" alt="Evergreen" /></a></td>
+<td colspan="2" style="text-align: right; padding: 0px; margin:0px"><a
+href="Evergreen_Documentation.pdf" title="also available in PDF" ><img
+style="height:60px; width:60px;"
+src="media/pdf_icon.png"/></a>
+</td>
+
+
+                                                        </tr>
                         </xsl:if>
                         
                         <xsl:if test="$row2">
@@ -103,15 +109,19 @@
    
     <xsl:template name="user.footer.navigation">
         
-       <div style="float: left;"> <p style="font-style: italic; font-size: .8em;">Report any errors in this documentation using <a href="https://bugs.launchpad.net/evergreen/+filebug">Launchpad</a>.<br />Documentation for Evergreen version 2.1 <br/>Copyright © 2007-2012, 
-	<a href="attributions.html">Members of the Evergreen Project</a> </p><p><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons license">
-            <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a></p></div>
-        <div style="float: right;"> <a href="../pdf/Evergreen_Documentation.pdf"
-title="also availabe in PDF"><img style="height:60px; width:60px;" src="../media/pdf_icon.png"/></a></div>
-                
+    <div id="footer">
+<p>
+&#169; 2008-2012 <a href="http://www.georgialibraries.org/"
+target="_blank">GPLS</a> and others.  Evergreen is open source software, freely
+licensed under <a href="http://www.gnu.org/licenses/gpl-2.0.html"
+target="_blank">GNU GPLv2</a> or later.<br />  The <a
+href="http://evergreen-ils.org/blog/?p=583" target="_blank">Evergreen Project is
+a member</a> of the <a href="http://sfconservancy.org/" target="_blank">Software
+Freedom Conservancy</a>.
+</p>
+</div>
+               
     </xsl:template>
     
-
-
 </xsl:stylesheet>
 
